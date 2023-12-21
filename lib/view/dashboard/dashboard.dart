@@ -13,8 +13,7 @@ class Smallicons extends StatelessWidget {
       padding: EdgeInsets.only(left: height * 0.04, top: height * 0.02),
       child: Column(
         children: [
-          const IconWidget(
-              text: 'farrukhjaved212@gmail.com', icon: Icons.email),
+          const IconWidget(text: 'farrukh@outlook.com', icon: Icons.email),
           const IconWidget(text: '03000025868', icon: Icons.phone),
           const IconWidget(
               text: 'Karachi,Pakistan', icon: Icons.location_city_outlined),
