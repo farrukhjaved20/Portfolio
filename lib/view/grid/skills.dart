@@ -58,6 +58,8 @@ class _SkillsState extends State<Skills> with TickerProviderStateMixin {
                           Chipname: 'Proficiency in attractive UI'),
                       Filterchipwidget(Chipname: 'Firebase integration'),
                       Filterchipwidget(Chipname: 'Push notification'),
+                      Filterchipwidget(Chipname: 'Hive'),
+                      Filterchipwidget(Chipname: 'Provider'),
                       Filterchipwidget(
                           Chipname:
                               'User authentication with Google, Facebook'),
@@ -70,47 +72,47 @@ class _SkillsState extends State<Skills> with TickerProviderStateMixin {
                 ),
               ],
             ),
+            // ExpansionTile(
+            //   title: Text('SEO Content Writer',
+            //       style: TextStyle(
+            //           fontSize: height * 0.02, color: Colors.orange.shade800)),
+            //   children: <Widget>[
+            //     Container(
+            //       child: const Wrap(
+            //         spacing: 5.0,
+            //         runSpacing: 3.0,
+            //         children: <Widget>[
+            //           Filterchipwidget(
+            //               Chipname: 'High-Quality SEO Friendly Content'),
+            //           Filterchipwidget(Chipname: 'Optimize Content'),
+            //           Filterchipwidget(Chipname: 'Proofreading & Editing'),
+            //           Filterchipwidget(Chipname: 'Keyword Research'),
+            //           Filterchipwidget(Chipname: 'Audience Catching Content'),
+            //           Filterchipwidget(Chipname: 'Informative content'),
+            //           Filterchipwidget(Chipname: 'Blogspost'),
+            //         ],
+            //       ),
+            //     ),
+            //   ],
+            // ),
+            // ExpansionTile(
+            //   title: Text('Networking',
+            //       style: TextStyle(
+            //           fontSize: height * 0.02, color: Colors.orange.shade800)),
+            //   children: [
+            //     Container(
+            //       child: const Wrap(
+            //         spacing: 5.0,
+            //         runSpacing: 3.0,
+            //         children: <Widget>[
+            //           Filterchipwidget(Chipname: 'CCNA'),
+            //         ],
+            //       ),
+            //     ),
+            //   ],
+            // ),
             ExpansionTile(
-              title: Text('SEO Content Writer',
-                  style: TextStyle(
-                      fontSize: height * 0.02, color: Colors.orange.shade800)),
-              children: <Widget>[
-                Container(
-                  child: const Wrap(
-                    spacing: 5.0,
-                    runSpacing: 3.0,
-                    children: <Widget>[
-                      Filterchipwidget(
-                          Chipname: 'High-Quality SEO Friendly Content'),
-                      Filterchipwidget(Chipname: 'Optimize Content'),
-                      Filterchipwidget(Chipname: 'Proofreading & Editing'),
-                      Filterchipwidget(Chipname: 'Keyword Research'),
-                      Filterchipwidget(Chipname: 'Audience Catching Content'),
-                      Filterchipwidget(Chipname: 'Informative content'),
-                      Filterchipwidget(Chipname: 'Blogspost'),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            ExpansionTile(
-              title: Text('Networking',
-                  style: TextStyle(
-                      fontSize: height * 0.02, color: Colors.orange.shade800)),
-              children: [
-                Container(
-                  child: const Wrap(
-                    spacing: 5.0,
-                    runSpacing: 3.0,
-                    children: <Widget>[
-                      Filterchipwidget(Chipname: 'CCNA'),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            ExpansionTile(
-              title: Text('Language',
+              title: Text('Languages',
                   style: TextStyle(
                       fontSize: height * 0.02, color: Colors.orange.shade800)),
               children: [
@@ -121,6 +123,7 @@ class _SkillsState extends State<Skills> with TickerProviderStateMixin {
                     children: <Widget>[
                       Filterchipwidget(Chipname: 'C'),
                       Filterchipwidget(Chipname: 'Dart'),
+                      Filterchipwidget(Chipname: 'Java'),
                     ],
                   ),
                 ),
