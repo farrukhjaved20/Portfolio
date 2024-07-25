@@ -25,11 +25,11 @@ class Education extends StatelessWidget {
             style: TextStyle(color: Colors.black, fontSize: height * 0.02),
           ),
           subtitle: Text(
-            'Computer Science Present(2.9CGPA)',
+            'Computer Science Present(2.95 CGPA)',
             style: TextStyle(color: Colors.black, fontSize: height * 0.015),
           ),
           trailing: Text(
-            'June 2024',
+            'July 2024',
             style: TextStyle(fontSize: height * 0.015, color: Colors.black),
           ),
         ),

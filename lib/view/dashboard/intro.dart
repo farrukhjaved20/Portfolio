@@ -12,6 +12,7 @@ class Introduction extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         automaticallyImplyLeading: false,
         title: Text(
           'Personal Portfolio',
@@ -20,10 +21,10 @@ class Introduction extends StatelessWidget {
       ),
       body: Column(children: [
         Padding(
-          padding: EdgeInsets.only(top: height * 0.08),
+          padding: EdgeInsets.only(top: height * 0.08, bottom: 10),
           child: Center(
               child: Text(
-            'Junior Flutter Developer',
+            'Flutter Developer',
             style: TextStyle(fontSize: height * 0.03),
           )),
         ),
@@ -34,6 +35,7 @@ class Introduction extends StatelessWidget {
             backgroundImage: const AssetImage('assets/images/farrukh.jpg'),
           ),
         ),
+        const SizedBox(height: 10),
         Text(
           'Muhammad Farrukh Javed',
           style: TextStyle(fontSize: height * 0.02),

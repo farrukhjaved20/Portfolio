@@ -21,7 +21,7 @@ class About extends StatelessWidget {
             Padding(
               padding: EdgeInsets.only(left: width * 0.01),
               child: Text(
-                'Would you like to create a robust application? Here I am, Farrukh Javed, a seventh semester student at SMIU and a certified flutter developer from SMIT. I will create user-friendly interactive apps for you. I will create a user-friendly UI for an Hybrid Apps that leverages Firebase as its backend. Whereas,The First Impression Of UI Will Be Beautiful UI To See Screen All Day.',
+                'Would you like to create a robust application? Here I am, Farrukh Javed, a eight semester student at SMIU and a certified flutter developer from SMIT. I will create user-friendly interactive apps for you. I will create a user-friendly UI for an Hybrid Apps that leverages Firebase as its backend. Whereas,The First Impression Of UI Will Be Beautiful UI To See Screen All Day.',
                 style: TextStyle(
                     fontSize: height * 0.02,
                     color: Colors.black.withOpacity(0.5),
